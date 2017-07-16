@@ -1,1 +1,1 @@
-sample page.
+ng g c recipes/recipe-list --spec false  
