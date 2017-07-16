@@ -8,9 +8,10 @@ import { Recipe } from "app/recipes/recipe-model";
 })
 export class RecipeListComponent implements OnInit {
 
-recipes:Array<Recipe>=[
+    recipes:Array<Recipe>=[
   new Recipe("Sambar Vada","recipe to make sambar vada","https://farm1.staticflickr.com/607/20981419973_e78d2d2ede_z.jpg")
-];
+,new Recipe("Idly","Recipe for Idly","http://www.indobase.com/recipes/rec-images/idli.jpg")  
+,new Recipe("Pongal","Recipe to make Venn Pongal","https://i.ytimg.com/vi/coDQeOpmKCo/maxresdefault.jpg")];
   constructor() { }
 
   ngOnInit() {
