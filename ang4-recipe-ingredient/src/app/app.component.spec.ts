@@ -1,5 +1,5 @@
 import { TestBed, async } from '@angular/core/testing';
-
+import {headerComponent } from './header/header.component'
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
