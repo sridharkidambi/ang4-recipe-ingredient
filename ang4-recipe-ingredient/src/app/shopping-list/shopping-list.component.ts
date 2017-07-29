@@ -10,7 +10,7 @@ export class ShoppingListComponent implements OnInit {
 ingredients:Array<Ingredient>=[
   new Ingredient("rice",5),
   new Ingredient("uraddall",1),
-  new Ingredient("puffrice",1)
+  new Ingredient("puffedrice",1)
 ];
   constructor() { }
 

@@ -6,5 +6,10 @@ import {HeaderComponent } from './header/header.component'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  loadedFeature:String='Recipe';
   title:string = 'Sridhar Kidambi';
+
+  onNavigate(name:string){
+   this.loadedFeature=name;
+  }
 }
