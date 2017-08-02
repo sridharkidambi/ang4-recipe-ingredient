@@ -11,14 +11,13 @@ export class ShoppingEditComponent implements OnInit {
  @ViewChild('nameInput') nameInputRef:ElementRef;
  @ViewChild('amountInput') amountInputRef:ElementRef;
 
-  constructor() { }
+  // constructor() { }
 
   ngOnInit() {
   }
 
 onAddItem(){
-  var ingredient:Ingredient;
-   ingredient=new Ingredient(this.nameInputRef.nativeElement.value,this.amountInputRef.nativeElement.value);
+  const  ingredient=new Ingredient(this.nameInputRef.nativeElement.value,this.amountInputRef.nativeElement.value);
 this.ingredientAdded.emit(ingredient);
 }
 }
