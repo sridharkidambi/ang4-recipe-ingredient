@@ -10,10 +10,14 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { WeatherInfoComponent } from './weather-info/weather-info.component';
 
 @NgModule({
   declarations: [
-    AppComponent,HeaderComponent, RecipesComponent, RecipeListComponent, RecipeDetailComponent, RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent, DropdownDirective
+    AppComponent,HeaderComponent, RecipesComponent, 
+    RecipeListComponent, RecipeDetailComponent, 
+    RecipeItemComponent, ShoppingListComponent, 
+    ShoppingEditComponent, DropdownDirective, WeatherInfoComponent
   ],
   imports: [
     BrowserModule

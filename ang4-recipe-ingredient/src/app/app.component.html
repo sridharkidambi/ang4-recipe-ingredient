@@ -5,6 +5,7 @@
     <div class="col-md-12">
       <app-recipes *ngIf="loadedFeature === 'Recipe' "></app-recipes>
       <app-shopping-list  *ngIf="loadedFeature === 'Shopping' "  ></app-shopping-list>
+      <app-weather-info *ngIf="loadedFeature === 'Weather' "></app-weather-info>
     </div>
 
   </div>
@@ -12,7 +13,7 @@
 </div>
 <div style="text-align:center">
   <h1>
-    Welcome  {{title}} !!!!
+    Welcome  {{title}} [title]!!!!
     
   </h1>
 </div>

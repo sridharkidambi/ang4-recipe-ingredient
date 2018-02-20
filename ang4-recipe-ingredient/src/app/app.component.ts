@@ -6,8 +6,8 @@ import {HeaderComponent } from './header/header.component'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  loadedFeature:String='Recipe';
-  title:string = 'Sridhar Kidambi';
+  loadedFeature:String='Weather';
+  title:string = 'Sridhar Kidambi I am default in app component';
 
   onNavigate(name:string){
    this.loadedFeature=name;
