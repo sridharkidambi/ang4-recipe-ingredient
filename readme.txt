@@ -1,3 +1,22 @@
+Qucik Angularjs 2-5:
+
+string interpolation: use {{ }} anything which returns string or converted to string.
+property binding: [object]=
+event binding:UI->typescript
+(click)="methodname($event)",here $event sends the input event to the calling function for further actions.
+
+two way binding
+ex:
+[(ngmodel)]=variableName
+1.sets the variablename to the ui control.
+2.sends the value typed in to the TS code variableName.
+
+For Two-Way-Binding to work, you need to enable the ngModel  directive. This is done by adding the FormsModule  to the imports[]  array in the AppModule.
+You then also need to add the import from @angular/forms  in the app.module.ts file:
+import { FormsModule } from '@angular/forms';
+
+
+
 ng g c recipes/recipe-list --spec false  
 angular augury for debugging the angularjs codebase.
 view encapsulation:
